@@ -1,6 +1,19 @@
-name: template-jp
+name: forest-modelling-treecrown_deepforest
 channels:
   - conda-forge
   - defaults
 dependencies:
-  - python
+  - python=3.9
+  - jupyter
+  - intake
+  - intake-xarray
+  - rasterio
+  - opencv
+  - geopandas
+  - tqdm
+  - hvplot
+  - datashader
+  - pip
+  - pip:
+      - pycurl
+      - git+https://github.com/ESM-VFC/intake_zenodo_fetcher.git
