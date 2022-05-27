@@ -6,7 +6,7 @@
     <a href="https://github.com/Environmental-DS-Book/forest-modelling-treecrown_deepforest/blob/main/LICENSE">
         <img alt="License" src="https://img.shields.io/badge/License-MIT-yellow.svg">
     </a>
-    <a href="https://notebooks.gesis.org/v2/gh/Environmental-DS-Book/forest-modelling-treecrown_deepforest/main?labpath=forest-modelling-treecrown_deepforest.ipynb">
+    <a href="https://notebooks.gesis.org/binder/v2/gh/Environmental-DS-Book/forest-modelling-treecrown_deepforest/main?labpath=forest-modelling-treecrown_deepforest.ipynb">
         <img alt="Binder" src="https://mybinder.org/badge_logo.svg">
     </a>
     <a href="https://github.com/Environmental-DS-Book/forest-modelling-treecrown_deepforest/actions/workflows/publish.yml/badge.svg">
