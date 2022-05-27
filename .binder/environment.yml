@@ -14,3 +14,4 @@ dependencies:
   - hvplot
   - datashader
   - pooch
+  - xmltodict
