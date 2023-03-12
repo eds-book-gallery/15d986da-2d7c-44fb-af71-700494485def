@@ -10,7 +10,7 @@ dependencies:
   - opencv
   - geopandas
   - tqdm
-  - hvplot==0.8.0
+  - hvplot
   - datashader
   - pooch
   - xmltodict
