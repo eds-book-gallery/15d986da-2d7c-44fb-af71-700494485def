@@ -12,6 +12,6 @@ dependencies:
   - geopandas
   - tqdm
   - hvplot==0.8.0
-  - datashader==0.5.4
+  - datashader
   - pooch
   - xmltodict
