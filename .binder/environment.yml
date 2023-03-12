@@ -1,7 +1,6 @@
 name: forest-modelling-treecrown_deepforest
 channels:
   - conda-forge
-  - defaults
 dependencies:
   - python=3.9
   - jupyter
