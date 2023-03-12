@@ -11,7 +11,7 @@ dependencies:
   - opencv
   - geopandas
   - tqdm
-  - hvplot
-  - datashader
+  - hvplot==0.8.0
+  - datashader==0.5.4
   - pooch
   - xmltodict
