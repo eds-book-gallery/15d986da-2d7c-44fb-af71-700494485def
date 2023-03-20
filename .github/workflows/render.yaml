@@ -12,7 +12,7 @@ jobs:
     name: ${{ matrix.os }}
     runs-on: ${{ matrix.os }}
 
-    if: github.repository_owner == 'Environmental-DS-Book'
+    if: github.repository_owner == 'eds-book-gallery'
     strategy:
       fail-fast: false
       matrix:

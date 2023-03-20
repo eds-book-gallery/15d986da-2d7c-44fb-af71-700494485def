@@ -8,7 +8,7 @@ on:
 jobs:
   build-and-push:
     runs-on: ubuntu-latest
-    if: github.repository_owner == 'Environmental-DS-Book'
+    if: github.repository_owner == 'eds-book-gallery'
     steps:
     # For biggish images, github actions runs out of disk space.
     # So we cleanup some unwanted things in the disk image, and reclaim that space for our docker use
