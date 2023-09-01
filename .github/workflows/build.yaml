@@ -1,9 +1,10 @@
-name: build and push container image
+name: Build and push container image
 
 on:
   push:
     branches:
       - main
+      - postprint
 
 jobs:
   build-and-push:

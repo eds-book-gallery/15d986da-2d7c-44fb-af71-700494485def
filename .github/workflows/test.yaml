@@ -1,4 +1,4 @@
-name: test container image build
+name: Test container image build
 
 on:
   pull_request:
