@@ -23,7 +23,7 @@
     <br/>
 </p>
 
-<p align="left">
+<p align="center">
     <a href="http://mybinder.org/v2/gh/eds-book-gallery/15d986da-2d7c-44fb-af71-700494485def/main?labpath=notebook.ipynb">
         <img alt="binder" src="https://mybinder.org/badge_logo.svg">
     </a>
