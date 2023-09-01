@@ -23,7 +23,7 @@
     <br/>
 </p>
 
-<p align="left">
+<p align="center">
     <a href="http://mybinder.org/v2/gh/eds-book-gallery/15d986da-2d7c-44fb-af71-700494485def/main?labpath=notebook.ipynb">
         <img alt="binder" src="https://mybinder.org/badge_logo.svg">
     </a>
@@ -36,6 +36,9 @@
 <p align="center">
     <a href="https://w3id.org/ro-id/15d986da-2d7c-44fb-af71-700494485def">
         <img alt="RoHub" src="https://img.shields.io/badge/RoHub-FAIR_Executable_Research_Object-2ea44f?logo=Open+Access&logoColor=blue">
+    </a>
+    <a href="https://zenodo.org/badge/latestdoi/493442887">
+        <img alt="doi" src="https://zenodo.org/badge/493442887.svg">
     </a>
 </p>
 
