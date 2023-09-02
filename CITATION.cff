@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-title: "Tree crown detection using DeepForest"
+title: "Tree crown detection using DeepForest (Jupyter Notebook) published in the Environmental Data Science book"
 message: "If you use this software, please cite it using the metadata from this file."
 type: software
 authors:
