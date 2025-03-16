@@ -15,3 +15,4 @@ dependencies:
   - datashader
   - pooch
   - xmltodict
+  - scikit-image
