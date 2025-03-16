@@ -1,23 +1,36 @@
 cff-version: 1.2.0
-title: "Tree crown detection using DeepForest (Jupyter Notebook) published in the Environmental Data Science book"
-message: "If you use this software, please cite it using the metadata from this file."
-type: software
+message: Please cite the following works when using this project.
+abstract: >-
+  Notebook developed to demonstrate how to detect tree crown using a
+  state-of-art Deep Learning model for object detection.
+title: >-
+  Tree crown detection using DeepForest (Jupyter Notebook) published in the
+  Environmental Data Science book
 authors:
   - family-names: Coca-Castro
     given-names: Alejandro
-    website: https://github.com/acocac
-    orcid: 0000-0002-9264-1539
     affiliation: The Alan Turing Institute
-  - name: "This EDS book notebook contributors"
-    website: "https://github.com/eds-book-gallery/15d986da-2d7c-44fb-af71-700494485def/graphs/contributors"
-version: v1.0.4 # This is automatically set using the bumpversion tool.
+    orcid: 0000-0002-9264-1539
+    email: acoca@turing.ac.uk
+    website: https://github.com/acocac
+date-released: '2024-09-13'
+contact:
+  - family-names: Coca-Castro
+    given-names: Alejandro
+    affiliation: The Alan Turing Institute
+    orcid: 0000-0002-9264-1539
+    email: acoca@turing.ac.uk
+    website: https://github.com/acocac
 identifiers:
   - type: doi
     value: 10.5281/zenodo.8309661
-    description: The concept DOI for the collection containing all versions of the notebook.
-abstract: "Notebook developed to demonstrate how to detect tree crown using a state-of-art Deep Learning model for object detection."
 keywords:
-  - Environmental Data Science
-  - Forest
-  - Modelling
-  - Deep learning
+  - environmental data science
+  - forest
+  - modelling
+  - computer vision
+license: MIT
+license-url: https://opensource.org/license/MIT
+repository: https://github.com/eds-book/15d986da-2d7c-44fb-af71-700494485def
+type: software
+version: v1.1.0
