@@ -1,0 +1,79 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+extends:
+  - https://raw.githubusercontent.com/eds-book/edsbook-config/main/edsbook.yml
+project:
+  id: 15d986da-2d7c-44fb-af71-700494485def
+  title: Tree crown detection using DeepForest (Jupyter Notebook) published in the Environmental Data Science book
+  short_title: Tree crown (DeepForest)
+  abstract: Notebook developed to demonstrate how to detect tree crown using a state-of-art Deep Learning model for object detection.
+  authors:
+    - id: acoca
+      name: Alejandro Coca-Castro
+      orcid: 0000-0002-9264-1539
+      corresponding: true
+      email: acoca@turing.ac.uk
+      url: https://github.com/acocac
+      roles:
+        - Investigation
+        - Software
+        - Visualization
+      affiliations:
+        - turing
+  reviewers:
+    - id: malen
+      name: Matt Allen
+      url: https://github.com/mja2106
+      roles:
+        - Writing – review & editing
+      affiliations:
+        - cambridge
+  affiliations:
+    - id: cambridge
+      name: University of Cambridge
+    - id: turing
+      name: The Alan Turing Institute
+      department: Environment & Sustainability
+  subject: Atmosphere
+  keywords:
+    - environmental data science
+    - forest
+    - modelling
+    - computer vision
+  venue:
+    title: Environmental Data Science Book
+    short_title: EDS Book
+    url: https://www.edsbook.org
+  issue:
+    name: Standard
+  thumbnail: images/thumbnail.png
+  requirements:
+    - environment.yml
+  doi: 10.5281/zenodo.8309661
+  github: https://github.com/eds-book/15d986da-2d7c-44fb-af71-700494485def
+  jupyter:
+    binder:
+      repo: eds-book/15d986da-2d7c-44fb-af71-700494485def
+  # To autogenerate a Table of Contents, run "jupyter book init --write-toc"
+  open_access: true
+  license:
+    content: CC-BY-4.0
+    code: MIT
+  date: 2024-09-13
+  toc:
+    - file: notebook.ipynb
+  exports:
+    - format: pdf
+      template: curvenote
+      article: notebook.ipynb
+      output: exports/notebook.pdf
+    - format: cff
+      type: software
+      version: v1.0.4
+      license: MIT
+      license-url: https://opensource.org/license/MIT
+  bibliography:
+    - references.bib
+
+site:
+  template: book-theme
