@@ -69,7 +69,7 @@ project:
       output: exports/notebook.pdf
     - format: cff
       type: software
-      version: v1.0.4
+      version: v1.1.0
       license: MIT
       license-url: https://opensource.org/license/MIT
   bibliography:
