@@ -34,12 +34,12 @@ project:
     - id: turing
       name: The Alan Turing Institute
       department: Environment & Sustainability
-  subject: Atmosphere
+  subject: Forest
   keywords:
-    - environmental data science
-    - forest
-    - modelling
-    - computer vision
+    - Forest
+    - Modelling
+    - Standard
+    - Python
   venue:
     title: Environmental Data Science Book
     short_title: EDS Book

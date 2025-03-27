@@ -25,10 +25,10 @@ identifiers:
   - type: doi
     value: 10.5281/zenodo.8309661
 keywords:
-  - environmental data science
-  - forest
-  - modelling
-  - computer vision
+  - Forest
+  - Modelling
+  - Standard
+  - Python
 license: MIT
 license-url: https://opensource.org/license/MIT
 repository: https://github.com/eds-book/15d986da-2d7c-44fb-af71-700494485def
