@@ -34,7 +34,7 @@ project:
     - id: turing
       name: The Alan Turing Institute
       department: Environment & Sustainability
-  subject: Forest
+  subject: Forest & Biomass
   keywords:
     - Forest
     - Modelling
