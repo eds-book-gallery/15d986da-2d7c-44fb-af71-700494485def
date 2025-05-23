@@ -13,7 +13,7 @@ project:
       orcid: 0000-0002-9264-1539
       corresponding: true
       email: acoca@turing.ac.uk
-      url: https://github.com/acocac
+      github: acocac
       roles:
         - Investigation
         - Software
@@ -23,11 +23,13 @@ project:
   reviewers:
     - id: malen
       name: Matt Allen
-      url: https://github.com/mja2106
+      github: mja2106
       roles:
         - Writing – review & editing
       affiliations:
         - cambridge
+  editors:
+    - acoca
   affiliations:
     - id: cambridge
       name: University of Cambridge
