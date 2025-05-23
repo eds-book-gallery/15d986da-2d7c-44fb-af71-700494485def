@@ -12,7 +12,6 @@ authors:
     affiliation: The Alan Turing Institute
     orcid: 0000-0002-9264-1539
     email: acoca@turing.ac.uk
-    website: https://github.com/acocac
 date-released: '2024-09-13'
 contact:
   - family-names: Coca-Castro
@@ -20,10 +19,10 @@ contact:
     affiliation: The Alan Turing Institute
     orcid: 0000-0002-9264-1539
     email: acoca@turing.ac.uk
-    website: https://github.com/acocac
 identifiers:
-  - type: doi
-    value: 10.5281/zenodo.8309661
+  - description: Open review report for this notebook
+    type: url
+    value: https://github.com/alan-turing-institute/environmental-ds-book/pull/5
 keywords:
   - Forest & Biomass
   - Modelling
@@ -33,4 +32,4 @@ license: MIT
 license-url: https://opensource.org/license/MIT
 repository: https://github.com/eds-book/15d986da-2d7c-44fb-af71-700494485def
 type: software
-version: v1.1.0
+version: v2025.05.0
