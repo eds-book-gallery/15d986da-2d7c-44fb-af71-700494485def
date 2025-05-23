@@ -74,6 +74,10 @@ project:
       version: v1.1.0
       license: MIT
       license-url: https://opensource.org/license/MIT
+      identifiers:
+        - description: "Open review report for this notebook"
+          type: url
+          value: "https://github.com/alan-turing-institute/environmental-ds-book/pull/5"
   bibliography:
     - references.bib
 
