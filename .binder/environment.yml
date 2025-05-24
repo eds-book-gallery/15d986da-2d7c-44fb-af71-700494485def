@@ -18,4 +18,6 @@ dependencies:
   - xmltodict
   - scikit-image
   - deepforest
-  - albumentations==2.0.6
+  - pip
+  - pip:
+      - albumentations==2.0.6
