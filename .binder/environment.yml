@@ -18,4 +18,4 @@ dependencies:
   - xmltodict
   - scikit-image
   - deepforest
-  - albumentations
+  - albumentations==2.0.6
