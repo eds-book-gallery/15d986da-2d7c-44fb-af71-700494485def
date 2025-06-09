@@ -1,0 +1,86 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+extends:
+  - https://raw.githubusercontent.com/eds-book/edsbook-config/main/edsbook.yml
+project:
+  id: 15d986da-2d7c-44fb-af71-700494485def
+  title: Tree crown detection using DeepForest (Jupyter Notebook) published in the Environmental Data Science book
+  short_title: Tree crown (DeepForest)
+  abstract: Notebook developed to demonstrate how to detect tree crown using a state-of-art Deep Learning model for object detection.
+  authors:
+    - id: acoca
+      name: Alejandro Coca-Castro
+      orcid: 0000-0002-9264-1539
+      corresponding: true
+      email: acoca@turing.ac.uk
+      github: acocac
+      roles:
+        - Investigation
+        - Software
+        - Visualization
+      affiliations:
+        - turing
+  reviewers:
+    - id: malen
+      name: Matt Allen
+      github: mja2106
+      roles:
+        - Writing – review & editing
+      affiliations:
+        - cambridge
+  editors:
+    - acoca
+  affiliations:
+    - id: cambridge
+      name: University of Cambridge
+    - id: turing
+      name: The Alan Turing Institute
+      department: Environment & Sustainability
+  subject: Forest & Biomass
+  keywords:
+    - Forest & Biomass
+    - Modelling
+    - Standard
+    - Python
+  venue:
+    title: Environmental Data Science Book
+    short_title: EDS Book
+    url: https://www.edsbook.org
+  issue:
+    name: Standard
+  thumbnail: images/thumbnail.png
+  requirements:
+    - environment.yml
+  doi: 10.5281/zenodo.8309661
+  github: https://github.com/eds-book/15d986da-2d7c-44fb-af71-700494485def
+  jupyter:
+    binder:
+      repo: eds-book/15d986da-2d7c-44fb-af71-700494485def
+  # To autogenerate a Table of Contents, run "jupyter book init --write-toc"
+  open_access: true
+  license:
+    content: CC-BY-4.0
+    code: MIT
+  date: 2024-09-13
+  toc:
+    - file: README.md
+    - file: notebook.ipynb
+  exports:
+    - format: pdf
+      template: curvenote
+      article: notebook.ipynb
+      output: exports/notebook.pdf
+    - format: cff
+      type: software
+      version: v2025.05.0
+      license: MIT
+      license-url: https://opensource.org/license/MIT
+      identifiers:
+        - description: "Open review report for this notebook"
+          type: url
+          value: "https://github.com/alan-turing-institute/environmental-ds-book/pull/5"
+  bibliography:
+    - references.bib
+
+site:
+  template: book-theme

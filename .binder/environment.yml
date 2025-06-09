@@ -3,7 +3,7 @@ channels:
   - conda-forge
   - nodefaults
 dependencies:
-  - python=3.9
+  - python=3.12
   - jupyter
   - intake
   - intake-xarray
@@ -11,7 +11,13 @@ dependencies:
   - opencv
   - geopandas
   - tqdm
+  - geoviews
   - hvplot
   - datashader
   - pooch
   - xmltodict
+  - scikit-image
+  - deepforest
+  - pip
+  - pip:
+      - albumentations==2.0.6
